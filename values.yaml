@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: ron-ecr-repository/time_app
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 8080
